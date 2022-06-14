@@ -1,0 +1,17 @@
+body{
+    background:url(raindow.jpg);
+    background-size:cover;
+}
+
+#btn1{
+    width:55px;
+}
+#idh1{
+    color:rgb(234, 165, 225);
+    background-color:rgb(237, 100, 100);
+    border-radius: 20px;
+    animation:example;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px black;}
+    to{box-shadow: 1px 1px 38px rgb(255, 255, 255);}}
